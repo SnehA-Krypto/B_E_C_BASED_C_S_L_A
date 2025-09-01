@@ -1,8 +1,8 @@
-`include "nbit_adder.v"   // (renamed from Nbit_RCA.v)
-`include "bec_modules.v"  // (contains bec5, bec6, bec7, bec8)
-`include "muxNbit.v"      // (renamed from Nbit_MUX.v)
+`include "nbit_adder.v"   
+`include "bec_modules.v"  
+`include "muxNbit.v"   
 
-module csla32 (
+module main (
     input  [31:0] a, b,
     output [31:0] sum,
     output cout
